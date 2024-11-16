@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url("/leopardbackground.svg") no-repeat center center; /* Image de fond */
+  background: url("/leopard.png") no-repeat center center; /* Image de fond */
   background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
   color: white;
   text-align: center;

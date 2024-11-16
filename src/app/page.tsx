@@ -1,8 +1,8 @@
 // src/app/page.tsx
 "use client";
 
-import { useRouter } from "next/navigation"; // Assurez-vous d'utiliser next/navigation
-import styles from "../app/styles/page.module.css"; // Ajustez le chemin si nécessaire
+import { useRouter } from "next/navigation";
+import styles from "../app/styles/page.module.css";
 
 const Home = () => {
   const router = useRouter();
