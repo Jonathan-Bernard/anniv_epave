@@ -6,7 +6,7 @@
   min-height: 100vh;
   text-align: center;
   padding: 20px;
-  background: url("/epave.svg") no-repeat center center;
+  background: url("/epave.png") no-repeat center center;
   background-size: cover;
   background-color: #70d6ff;
 }
