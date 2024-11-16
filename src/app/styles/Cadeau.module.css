@@ -5,9 +5,8 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  padding: 20px;
-  background: url("/epave.png") no-repeat center center;
-  background-size: cover;
+  background: url("/epave.png") no-repeat center bottom;
+  background-size: 100%;
   background-color: #70d6ff;
 }
 
@@ -20,7 +19,7 @@
 .description {
   font-size: 1.5rem;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 5%;
 }
 
 .button {
@@ -39,4 +38,46 @@
 .button:hover {
   background-color: #ff759e;
   transform: scale(1.05);
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.cagnotte {
+  font-size: 3rem;
+  color: #ff456e;
+  text-shadow: 0 0 3px #ff456e, 0 0 5px #ff456e, 0 0 10px #ff456e;
+  animation: neon 2s ease-in-out infinite alternate;
+  margin-bottom: 5%;
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 3px #ff456e, 0 0 5px #ff456e, 0 0 10px #ff456e;
+    color: #ff456e;
+  }
+  50% {
+    text-shadow: 0 0 5px #ff456e, 0 0 8px #ff456e, 0 0 12px #ff456e;
+    color: #ff77a9; /* Couleur légèrement différente à l'animation */
+  }
+  100% {
+    text-shadow: 0 0 3px #ff456e, 0 0 5px #ff456e, 0 0 10px #ff456e;
+    color: #ff456e;
+  }
+}
+
+.hiddenButton {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: transparent; /* Transparent pour ne pas être visible */
+  position: fixed; /* Utilise fixed pour le positionner par rapport à la fenêtre */
+  bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
+  right: 20px; /* Positionne le bouton à 20px du côté droit */
+  cursor: pointer;
+  z-index: 1000; /* S'assurer qu'il est au-dessus des autres éléments */
 }
