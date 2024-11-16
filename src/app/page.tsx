@@ -14,6 +14,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>JOYEUX ANNIVERSAIRE ÉPAVE 🎉!</h1>
+      <p className={styles.description}>23 ans ça se fête ! 🎂</p>
       <p className={styles.description}>
         Un cadeau spécial t&apos;attend... Clique pour le découvrir !
       </p>
