@@ -7,8 +7,8 @@ import Image from "next/image";
 const Cadeau = () => {
   useEffect(() => {
     confetti({
-      particleCount: 150,
-      spread: 70,
+      particleCount: 1000,
+      spread: 100,
       origin: { y: 0.6 },
     });
   }, []);
