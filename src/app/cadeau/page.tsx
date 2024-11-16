@@ -15,7 +15,7 @@ const Cadeau = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Surprise 🎉!</h1>
+      <h1 className={styles.title}>SURPRISE 🎉!</h1>
       <p className={styles.description}>Voilà une</p>
       <p className={styles.cagnotte}>CAGNOTTE</p>
       <p className={styles.description}>spéciale pour toi.</p>
