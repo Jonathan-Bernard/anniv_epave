@@ -11,16 +11,18 @@
   background-repeat: no-repeat;
 }
 
-.text {
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 80%;
-}
-
 .leonardpicture {
   width: 90%;
   height: auto;
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.leonard {
+  font-size: 4rem;
+  color: #ff456e;
+  text-shadow: 0 0 0px #ff456e, 0 0 5px #ff456e, 0 0 5px #ff456e;
+  animation: neon 2s ease-in-out infinite alternate;
+  margin-bottom: 15%;
+  margin-top: 5%;
 }

@@ -1,12 +1,11 @@
 "use client";
 import React, { useEffect } from "react";
 import confetti from "canvas-confetti";
-import styles from "../../app/styles/Cadeau.module.css"; // Assurez-vous que le chemin vers le CSS est correct
+import styles from "../../app/styles/Cadeau.module.css";
 import Image from "next/image";
 
 const Cadeau = () => {
   useEffect(() => {
-    // Lancer les confettis au chargement de la page
     confetti({
       particleCount: 150,
       spread: 70,
@@ -42,9 +41,6 @@ const Cadeau = () => {
       >
         Voir la cagnotte 🤑
       </a>
-
-      {/* Bouton invisible pour l'easter egg */}
-      <a href="/easter-egg" className={styles.hiddenButton}></a>
     </div>
   );
 };
