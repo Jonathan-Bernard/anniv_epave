@@ -12,7 +12,7 @@
 
 .title {
   font-size: 3.5rem;
-  color: #ff4568;
+  color: #ff759e;
   margin-bottom: 15%;
 }
 
@@ -68,16 +68,4 @@
     text-shadow: 0 0 3px #ff456e, 0 0 5px #ff456e, 0 0 10px #ff456e;
     color: #ff456e;
   }
-}
-
-.hiddenButton {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-color: transparent; /* Transparent pour ne pas être visible */
-  position: fixed; /* Utilise fixed pour le positionner par rapport à la fenêtre */
-  bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
-  right: 20px; /* Positionne le bouton à 20px du côté droit */
-  cursor: pointer;
-  z-index: 1000; /* S'assurer qu'il est au-dessus des autres éléments */
 }
