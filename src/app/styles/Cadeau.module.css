@@ -14,12 +14,15 @@
   font-size: 3.5rem;
   color: #ff759e;
   margin-bottom: 15%;
+  margin-top: 10%;
 }
 
 .description {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .button {
