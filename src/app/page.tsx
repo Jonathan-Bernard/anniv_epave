@@ -20,6 +20,8 @@ const Home = () => {
       <button className={styles.button} onClick={goToGift}>
         Découvrir mon cadeau 🎁
       </button>
+      {/* Bouton invisible pour l'easter egg */}
+      <a href="/easter-egg" className={styles.hiddenButton}></a>
     </div>
   );
 };

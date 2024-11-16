@@ -49,3 +49,15 @@
 .button:hover {
   background-color: #ffe4ea;
 }
+
+.hiddenButton {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: transparent; /* Transparent pour ne pas être visible */
+  position: fixed; /* Utilise fixed pour le positionner par rapport à la fenêtre */
+  bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
+  right: 20px; /* Positionne le bouton à 20px du côté droit */
+  cursor: pointer;
+  z-index: 1000; /* S'assurer qu'il est au-dessus des autres éléments */
+}
