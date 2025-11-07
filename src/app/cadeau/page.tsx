@@ -20,10 +20,10 @@ const Cadeau = () => {
       <p className={styles.cagnotte}>CAGNOTTE</p>
       <p className={styles.description}>spéciale pour toi.</p>
       <p className={styles.description}>
-        Tu pourras t&apos;acheter une cafetière pour te réveiller le matin 😊
+        Tu pourras te payer un super voyage !
       </p>
       <Image
-        src="/cafetiere.jpg"
+        src="/bully.jpg"
         alt="Cadeau"
         width={300}
         height={300}
@@ -34,7 +34,7 @@ const Cadeau = () => {
       </p>
 
       <a
-        href="https://lydia-app.com/pots?id=37591-la-moula-pour-l-epave"
+        href="https://lydia-app.com/pots?id=53398-anniv-epave"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.button}
